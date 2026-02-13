@@ -1,0 +1,129 @@
+{
+  "logo": {
+     "source": "/home/arroz/.config/fastfetch/mikusamurai.jpg",
+     "type": "kitty",
+     "height": 16,
+     "padding": {
+        "top": 0
+      }
+  },
+  "display": {
+     "separator": "- "
+  },
+  "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├󰍛",
+            "keyColor": "green"
+
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+         "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "blue"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminal",
+            "key": "└ └",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────Uptime / DT────────────────────┐"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "datetime",
+            "key": "  DateTime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└─────────────────────────────────────────────────────────┘"
+        },
+
+//        {
+//            "type": "colors"
+//        },
+
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+
+    ]
+}
+
+    //"title",
+    //"separator",
+    //"os",
+    //"host",
+    //"kernel",
+    //"uptime",
+    //"packages",
+    //"shell",
+    //"display",
+    //"de",
+    //"wm",
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"font",
+    //"cursor",
+    //"terminal",
+    //"terminalfont",
+    //"cpu",
+    //"gpu",
+    //"memory",
+    //"swap",
+    //"disk",
+    //"localip",
+    //"battery",
+    //"poweradapter",
+    //"locale",
+    //"break",
+    //"colors"
